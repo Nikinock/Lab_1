@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.014d9fb1.css">
+    <link rel="stylesheet" href="/index.68f4ebad.css">
+    <title>Картиночки</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex justify-content-between" href="#">
+                    <img src="/free-icon-photos-6168829.a51b4066.png" class="logo-img img-fluid">
+                    <h2 class="navbar-brand mx-4">Картинки</h2>
+                </a>
+                <button class="btn btn-light" id="load-toast">Загрузить</button>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container py-3">
+        <div class="row gy-4">
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="card">
+                    <img src="/atm.bafd71f5.png" class="card-img-top" style="max-width: 20rem; margin: auto">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Банкомат</h5>
+                        <p class="card-text">Описание первого объекта. Котой-то текст для того чтобы наполнить
+                            содержание карточки.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="card">
+                    <img src="/calculating.029797c1.png" class="card-img-top" style="max-width: 20rem; margin: auto">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Калькулятор</h5>
+                        <p class="card-text">Описание второго объекта. Котой-то текст для того чтобы наполнить
+                            содержание карточки.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="card">
+                    <img src="/side-view.e6495857.png" class="card-img-top" style="max-width: 20rem; margin: auto">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Грузовик</h5>
+                        <p class="card-text">Описание третьего объекта. Котой-то текст для того чтобы наполнить
+                            содержание карточки.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="card">
+                    <img src="/tomatoes.98c1e8c8.png" class="card-img-top" style="max-width: 20rem; margin: auto">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Томат</h5>
+                        <p class="card-text">Описание четвёртого объекта. Котой-то текст для того чтобы наполнить
+                            содержание карточки.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xxl-3">
+                <div class="card">
+                    <img src="/supermarket-gift.885e9d1d.png" class="card-img-top" style="max-width: 20rem; margin: auto">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Подарок
+                        </h5>
+                        <p class="card-text">Описание пятого объекта. Котой-то текст для того чтобы наполнить содержание
+                            карточки.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!--    TOAST   -->
+    <div class="toast-container position-absolute bottom-0 end-0" id="toastPlacement">
+        <div class="toast">
+            <div class="toast-header">
+                <strong class="me-auto">Oops...</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+            </div>
+            <div class="toast-body">Эта функция пока не доступна</div>
+        </div>
+    </div>
+
+            <!--    MODAL   -->
+    <div class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"></div>
+                <div class="modal-body"></div>
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-pre btn-outline-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left-square-fill" viewbox="0 0 16 16">
+                            <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z"></path>
+                        </svg>
+                        Пред.
+                    </button>
+                    <button type="button" class="btn btn-next btn-outline-dark">
+                        След.
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-square-fill" viewbox="0 0 16 16">
+                            <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md d-flex">
+                <div class="col-6">Абакумов Никита</div>
+                <div class="col-6 contacts">
+                    <img src="/instagram.92dec1fb.png" alt="instagram">
+                    <img src="/facebook.87972e77.png" alt="facebook">
+                    <img src="/twitter.8587c02b.png" alt="twitter">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/index.a56319bd.js" defer=""></script>
+</body>
+
+</html>
